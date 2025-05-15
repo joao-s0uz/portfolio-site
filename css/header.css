@@ -1,0 +1,82 @@
+header {
+  background: linear-gradient(
+    180deg,
+    #010208 16.39%,
+    #010206 20.51%,
+    #040008 24.79%,
+    #010101 30.46%,
+    #010101 34.11%,
+    #010101 36.21%,
+    #010101 100%
+  );
+  height: 800px;
+}
+
+.logo {
+  width: 161px;
+  max-width: 100%;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.menu {
+  display: flex;
+  gap: 32px;
+}
+
+.menu a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  background: -webkit-linear-gradient(#bc3cd8 0.07%, #c54b8c 106.32%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 2px solid #bc3cd8;
+  padding-bottom: 1px;
+  transition: 0.2s;
+}
+
+.texto-atencao {
+  margin: 200px auto;
+}
+
+.texto-atencao h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: -1.12px;
+  pointer-events: none;
+}
+
+.seta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 40px;
+  transition: 0.2s;
+}
+
+.seta:hover {
+  transform: scale(1.4);
+  transition: 0.2s;
+}
+
+.seta img {
+  max-width: 100%;
+}
